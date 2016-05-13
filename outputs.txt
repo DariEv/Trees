@@ -1,0 +1,77 @@
+
+Input Newick tree from the file fruits.nwk: ((apple,banana),(carrot,(durian,eggplant)));
+The result tree: 
+
+|	|-------apple
+|-------0
+|	|-------banana
+R
+|	|-------carrot
+|-------15
+|	|	|-------durian
+|	|-------23
+|	|	|-------eggplant
+
+Input Newick tree from the file t_tree.nwk: ((((t1,t2),t3),t4),((t5,t6),(t7,(t8,t9))));
+The result tree: 
+
+|	|	|	|-------t1
+|	|	|-------2
+|	|	|	|-------t2
+|	|-------1
+|	|	|-------t3
+|-------0
+|	|-------t4
+R
+|	|	|-------t5
+|	|-------19
+|	|	|-------t6
+|-------18
+|	|	|-------t7
+|	|-------27
+|	|	|	|-------t8
+|	|	|-------31
+|	|	|	|-------t9
+
+Input Newick tree from the file plants.nwk: (pharus,((chusquea,(merxmuel-m,(((austrodant,karoochloa), ((((zea,miscanthus),pennisetum),danthoniop), ((pariana,eremitis),((melicaa,((triticum,lygeum),glycerias)),oryza)))), (centropodi,merxmuel-r)))),anomochloa));
+The result tree: 
+
+|-------pharus
+R
+|	|	|-------chusquea
+|	|-------8
+|	|	|	|-------merxmuel-m
+|	|	|-------18
+|	|	|	|	|	|	|-------austrodant
+|	|	|	|	|	|-------32
+|	|	|	|	|	|	|-------karoochloa
+|	|	|	|	|-------31
+|	|	|	|	|	|	|	|	|	|-------zea
+|	|	|	|	|	|	|	|	|-------60
+|	|	|	|	|	|	|	|	|	|-------miscanthus
+|	|	|	|	|	|	|	|-------59
+|	|	|	|	|	|	|	|	|-------pennisetum
+|	|	|	|	|	|	|-------58
+|	|	|	|	|	|	|	|-------danthoniop
+|	|	|	|	|	|------- ((((zea,miscanthus
+|	|	|	|	|	|	|	|	|-------pariana
+|	|	|	|	|	|	|	|-------103
+|	|	|	|	|	|	|	|	|-------eremitis
+|	|	|	|	|	|	|------- ((pariana,eremitis
+|	|	|	|	|	|	|	|	|	|-------melicaa
+|	|	|	|	|	|	|	|	|-------123
+|	|	|	|	|	|	|	|	|	|	|	|-------triticum
+|	|	|	|	|	|	|	|	|	|	|-------133
+|	|	|	|	|	|	|	|	|	|	|	|-------lygeum
+|	|	|	|	|	|	|	|	|	|-------132
+|	|	|	|	|	|	|	|	|	|	|-------glycerias
+|	|	|	|	|	|	|	|-------122
+|	|	|	|	|	|	|	|	|-------oryza
+|	|	|	|-------30
+|	|	|	|	|	|-------centropodi
+|	|	|	|	|------- (centropodi,merxmuel-r
+|	|	|	|	|	|-------merxmuel-r
+|-------7
+|	|-------anomochloa
+
+
